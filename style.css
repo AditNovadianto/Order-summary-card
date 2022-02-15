@@ -1,0 +1,150 @@
+/* * {
+  border: 1px solid red;
+} */
+
+html {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: var(--Pale-blue);
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 330px;
+  background-color: var(--Very-pale-blue);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: auto;
+  max-width: max-content;
+}
+
+.container img {
+  width: 100%;
+  max-width: max-content;
+}
+
+.container h1 {
+  font-size: 19px;
+  margin: 10px auto;
+  margin-top: 30px;
+  color: var(--Dark-blue);
+  font-weight: bold;
+  max-width: max-content;
+}
+
+.container p {
+  width: 80%;
+  /* padding: 10px; */
+  font-size: 12px;
+  text-align: center;
+  margin: auto;
+  color: var(--Desaturated-blue);
+  max-width: max-content;
+}
+
+.container .icon-music {
+  width: 35px;
+  max-width: max-content;
+}
+
+.main-content {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  max-width: max-content;
+}
+
+.main-content img {
+  width: 100%;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  max-width: max-content;
+}
+
+.main-content .mid-content {
+  width: 100%;
+  margin-left: 30px;
+  max-width: max-content;
+}
+
+.main-content h1 {
+  width: 100%;
+  font-size: 13px;
+  text-align: left;
+  margin-left: 68px;
+  max-width: max-content;
+}
+
+.main-content p {
+  font-size: 13px;
+  text-align: left;
+  margin-left: 68px;
+  max-width: max-content;
+}
+
+.main-content a {
+  font-size: 12px;
+  margin-left: 50px;
+  margin-top: 40px;
+  max-width: max-content;
+}
+
+.lower-main-one {
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: var(--Bright-blue);
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 40px;
+  box-shadow: 0px 10px 20px hsla(0, 0%, 44%, 0.5);
+  max-width: max-content;
+}
+
+.lower-main-one .satu {
+  width: 100%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 13px;
+  color: var(--Very-pale-blue);
+  cursor: pointer;
+  max-width: max-content;
+}
+
+.lower-main-two {
+  /* margin-top: 10px; */
+  font-weight: bold;
+  cursor: pointer;
+  margin: 15px auto;
+  max-width: max-content;
+}
+
+.lower-main-two .dua {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  color: var(--Desaturated-blue);
+  cursor: pointer;
+  max-width: max-content;
+  margin-bottom: 30px;
+}
+
+/* @media (max-width: 500px) {
+  .container {
+    width: 80%;
+  }
+} */
